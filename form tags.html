@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arivu</title>
+</head>
+<body>
+    <form action="">
+        <input required type="text" name="fname" placeholder="enter your name" maxlength="5" minlength="3"><br>
+        <input type="email" name="email" placeholder="enter your email"><br>
+        <input pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^A-Za-z0-9])(?!.*\s).{8,}$" name="password" placeholder="enter your password"><br>
+       gender: <input type="radio" name="gender" value="m" >male
+       <input type="radio" name="gender" value="f">female <br>
+       dob: <input type="date" name="date" ><br>
+       salary: <input type="number" name="salary" min="2000"  max="5000"> <br>
+       check in time: <input type="time" name="in time" > <br>
+       <textarea name="address" cols="30" rows="10" placeholder="address"></textarea><br>
+       department<select name="department" id="">
+       <option value="cs">computer science with ai</option>
+       <option value="mba">master of bussiness administration</option>
+       <option value="ca">computer application</option><br>
+        </select> <br>
+       choose elective: <br>
+       <input type="checkbox" name="elective" value="java">java program <br>
+       <input type="checkbox" name="elective" value="python">python program <br>
+       <input type="checkbox" name="elective" value="c">c program <br>
+        <input type="submit" value="save"><br>
+        <input type="reset" value="clear">
+    </form>
+</body>
+</html>
