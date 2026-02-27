@@ -1,0 +1,13 @@
+class Throwdemo{
+  public static void check age(int age){
+    if(age<18){
+      throw new Arithmetic Exception("not eligible to vote");
+    }
+    else{
+      System.out.println("eligible to vote");
+    }
+  }
+public static void main(String[] args){
+  check age(16);
+}
+}
